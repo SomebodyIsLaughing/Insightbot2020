@@ -7,10 +7,10 @@ bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 
 
-# Клавиатура - start
-@dp.message_handler(commands=['start'])
+# Клавиатура - stop
+@dp.message_handler(commands=['stop'])
 async def process_command_1(message: types.Message):
-    await message.reply("Выбирай из доступных категорий", reply_markup=kb.inline_kb1)
+    await message.reply("Сейл, помни! Нет сделок - нет проблем!", reply_markup=kb.inline_kb1)
 
 
 

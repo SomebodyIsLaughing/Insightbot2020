@@ -1,5 +1,5 @@
 # Production token bot
-TOKEN = '1277764194:AAFv5F7bGyX9HuBhoB3Vex0EQdbGmVIj_So'
+TOKEN = '1426107369:AAFZ9nEzRzXTuf6vDm5Vep-GtPWOrQNigU4'
 
 # Test token bot
 #TOKEN = '1258455032:AAECgyZzJPT6ZPehwBAFxb6mu4CVes6jSKs'
